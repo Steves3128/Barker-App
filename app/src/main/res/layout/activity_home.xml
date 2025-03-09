@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#c4a484"
+    android:background="#e1d1c4"
     tools:context=".HomeActivity">
 
     <androidx.viewpager2.widget.ViewPager2
@@ -32,8 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="#f0e3d5"
-            app:tabIconTint="#b57c43"
-            app:tabTextColor="#000000"
+            app:tabIconTint="#865b51"
+            app:tabTextColor="#865b51"
             app:tabTextAppearance="@style/Tabtext"
             app:tabIndicatorColor="@android:color/holo_orange_light"
             app:tabSelectedTextColor="@android:color/holo_orange_light">
@@ -41,6 +41,8 @@
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                app:tabIconTint="#865b51"
+                app:tabTextColor="#865b51"
                 android:icon="@drawable/ic_home"
                 android:text="Home"/>
 
@@ -48,6 +50,8 @@
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                app:tabIconTint="#865b51"
+                app:tabTextColor="#865b51"
                 android:icon="@drawable/ic_create"
                 android:text="Create"/>
 
@@ -55,6 +59,8 @@
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                app:tabIconTint="#865b51"
+                app:tabTextColor="#865b51"
                 android:icon="@drawable/ic_profile"
                 android:text="Profile"/>
 

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/cl_create"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#c4a484"
+    android:background="#e1d1c4"
     tools:context=".Fragments.CreateFragment">
 
     <EditText
@@ -24,8 +24,9 @@
         android:maxLines="10"
         android:gravity="center"
         android:padding="10dp"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"/>
+        android:textColor="#e1d1c4"
+        android:backgroundTint="#865b51"
+        android:textColorHint="#e1d1c4"/>
 
     <ImageButton
         android:id="@+id/imb_image"
@@ -57,7 +58,7 @@
         android:src="@drawable/ic_delete"
         android:layout_margin="10dp"
         android:padding="0dp"
-        android:background="@android:color/transparent"
+        android:background="#865b51"
         android:visibility="gone"/>
 
     <Button
@@ -68,6 +69,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:textColor="#e1d1c4"
+        android:backgroundTint="#865b51"
         android:layout_margin="10dp"/>
 
     <ImageButton
@@ -79,6 +82,6 @@
         android:src="@drawable/ic_delete"
         android:layout_margin="10dp"
         android:padding="0dp"
-        android:background="#FFFFFF"/>
+        android:background="#e1d1c4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

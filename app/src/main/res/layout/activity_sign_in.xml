@@ -6,13 +6,13 @@
     android:animateLayoutChanges="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#a89378"
     tools:context=".SignInActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="#4F78D0"
+        android:background="#a89378"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_margin="30dp"
-        app:cardBackgroundColor="#FFFFFF"
+        app:cardBackgroundColor="#e1d1c4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -36,7 +36,7 @@
             android:layout_gravity="top|center_horizontal"
             android:layout_marginTop="30dp"
             android:text="SIGN IN"
-            android:textColor="#4F78D0"
+            android:textColor="#865b51"
             android:textStyle="bold"
             android:textSize="20sp"/>
 
@@ -51,9 +51,9 @@
             android:layout_marginBottom="180dp"
             android:gravity="center"
             android:inputType="textEmailAddress"
-            android:textColor="#4F78D0"
-            android:textColorHint="#4F78D0"
-            android:backgroundTint="#4F78D0"/>
+            android:textColor="#865b51"
+            android:textColorHint="#865b51"
+            android:backgroundTint="#865b51"/>
 
         <EditText
             android:id="@+id/et_signin_passwd"
@@ -66,9 +66,9 @@
             android:layout_marginBottom="120dp"
             android:gravity="center"
             android:inputType="textPassword"
-            android:textColor="#4F78D0"
-            android:textColorHint="#4F78D0"
-            android:backgroundTint="#4F78D0"/>
+            android:textColor="#865b51"
+            android:textColorHint="#865b51"
+            android:backgroundTint="#865b51"/>
 
         <Button
             android:id="@+id/btn_signin"
@@ -76,6 +76,8 @@
             android:layout_height="50dp"
             android:layout_gravity="center_horizontal|bottom"
             android:layout_marginBottom="40dp"
+            android:textColor="#e1d1c4"
+            android:backgroundTint="#865b51"
             android:text="Sign In"/>
 
         <TextView
@@ -87,7 +89,7 @@
             android:layout_marginBottom="20dp"
             android:clickable="true"
             android:text="Click Here"
-            android:textColor="#4F78D0"
+            android:textColor="#865b51"
             android:textSize="14sp"
             android:textStyle="bold"
             tools:ignore="TouchTargetSizeCheck" />
@@ -99,7 +101,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="140dp"
-            android:textColor="#000000"
+            android:textColor="#865b51"
             android:textSize="14sp"/>
 
     </androidx.cardview.widget.CardView>

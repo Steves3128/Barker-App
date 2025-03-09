@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#FFFFFF"
+    android:background="#a89378"
     android:layout_margin="5dp"
     android:elevation="5dp">
 
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:textColor="#4F78D0"
+        android:textColor="#e1d1c4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@id/cv_comment_uid"
         android:layout_margin="10dp"/>
@@ -83,6 +83,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/et_post_comment"
         android:layout_marginTop="10dp"
+        app:tint="#865b51"
         app:layout_constraintHorizontal_bias="0.75"
         android:background="@android:color/transparent"
         android:scaleType="fitXY"/>
@@ -94,6 +95,7 @@
         android:textColor="@color/black"
         android:textSize="12sp"
         android:text="0"
+        android:tint="@android:color/white"
         app:layout_constraintLeft_toRightOf="@id/imb_comment_likes"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginLeft="5dp"
