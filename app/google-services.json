@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "380403672425",
+    "project_id": "simplesocialmediaapp-8951d",
+    "storage_bucket": "simplesocialmediaapp-8951d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380403672425:android:05c5d58884f17e775289f8",
+        "android_client_info": {
+          "package_name": "com.example.barker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtwTTI6jjwSo6-sRRkXaik4v6G7eHB2V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
